@@ -2,6 +2,7 @@ argh==0.26.2
 astroid==1.6.5
 atomicwrites==1.2.1
 attrs==18.2.0
+autopep8==1.4.3
 certifi==2018.11.29
 chardet==3.0.4
 Click==7.0
@@ -21,8 +22,10 @@ MarkupSafe==1.1.0
 mccabe==0.6.1
 more-itertools==5.0.0
 pathtools==0.1.2
+pep8==1.7.1
 pluggy==0.8.1
 py==1.7.0
+pycodestyle==2.4.0
 pylint==1.9.4
 pytest==4.1.0
 pytest-cov==2.6.1
@@ -32,6 +35,7 @@ PyYAML==3.13
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1
+virtualenv==16.2.0
 watchdog==0.9.0
 Werkzeug==0.14.1
 wrapt==1.10.11
