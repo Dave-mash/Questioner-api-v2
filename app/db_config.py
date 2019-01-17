@@ -47,7 +47,7 @@ def tables():
                     isAdmin text NOT NULL,
                     date_registered integer NOT NULL
                     )
-                    """
+                """
     meetups_table = """
                     CREATE TABLE IF NOT EXISTS meetups (
                     id serial PRIMARY KEY NOT NULL,
@@ -59,7 +59,7 @@ def tables():
                     schedule interger NOT NULL,
                     tags varChar NOT NULL
                     )
-                 """
+                """
     questions_table = """
                     CREATE TABLE IF NOT EXISTS users (
                     id serial PRIMARY KEY NOT NULL,
@@ -68,7 +68,7 @@ def tables():
                     created_by integer NOT NULL,
                     title text NOT NULL,
                     body text NOT NULL,
-                    votes integer NOT NULL,
+                    votes integer NOT NULL
                     )
                 """
 
